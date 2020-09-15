@@ -25,5 +25,5 @@ steps:
   displayName: Install Conftest
 - task: CmdLine@2
   inputs:
-    script: './conftest all-in-one-test.yaml'
+    script: './conftest test all-in-one-test.yaml'
   displayName: Run Conftest Policy Check
